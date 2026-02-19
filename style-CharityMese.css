@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f8f9fa;  /* Light gray for clean look */
+}
+
+.navbar {
+  background-color: #343a40 !important;  /* Dark gray for professionalism */
+}
+
+.nav-link:hover {
+  color: #0d6efd !important;  /* Blue hover */
+}
+
+.btn-primary {
+  background-color: #0d6efd !important;
+  border-color: #0d6efd !important;
+}
+
+.btn-primary:hover {
+  background-color: #084298 !important;  /* Darker blue */
+}
+
+.card {
+  border: 1px solid #dee2e6 !important;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.alert-success {
+  background-color: #d1e7dd !important;
+  color: #0f5132 !important;
+}
+
+/* Hero customization */
+.bg-primary {
+  background-color: #0d6efd !important;
+}
+
+.lead {
+  font-weight: 300;
+}
